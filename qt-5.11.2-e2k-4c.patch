@@ -1,0 +1,604 @@
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Geometry.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Geometry.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Geometry.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Geometry.cpp	2018-12-16 21:06:04.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Macro.hpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Macro.hpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Macro.hpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Macro.hpp	2018-12-16 21:07:51.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Material.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Material.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Material.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Material.cpp	2018-12-16 21:47:09.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Node.hpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Node.hpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Node.hpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Node.hpp	2018-12-16 21:00:47.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Postprocess.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Postprocess.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Postprocess.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/AMFImporter_Postprocess.cpp	2018-12-16 21:57:03.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Asset.h qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Asset.h
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Asset.h	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Asset.h	2018-12-16 22:50:29.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2AssetWriter.inl qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2AssetWriter.inl
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2AssetWriter.inl	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2AssetWriter.inl	2018-12-16 23:09:22.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Exporter.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Exporter.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Exporter.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTF2Exporter.cpp	2018-12-16 22:56:50.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.h qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.h
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.h	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.h	2018-12-16 23:06:28.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.inl qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.inl
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.inl	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAsset.inl	2018-12-16 23:13:54.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAssetWriter.inl qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAssetWriter.inl
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAssetWriter.inl	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFAssetWriter.inl	2018-12-16 23:16:35.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFExporter.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFExporter.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFExporter.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFExporter.cpp	2018-12-16 23:04:43.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFImporter.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFImporter.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/glTFImporter.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/glTFImporter.cpp	2018-12-16 22:52:17.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ Open Asset Import Library (assimp)
+ ----------------------------------------------------------------------
+ 
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/ImporterRegistry.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/ImporterRegistry.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/ImporterRegistry.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/ImporterRegistry.cpp	2018-12-16 22:30:44.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/ValidateDataStructure.cpp qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/ValidateDataStructure.cpp
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/code/ValidateDataStructure.cpp	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/code/ValidateDataStructure.cpp	2018-12-16 22:44:37.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/include/assimp/scene.h qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/include/assimp/scene.h
+--- qt-everywhere-src-5.11.2/qt3d/src/3rdparty/assimp/include/assimp/scene.h	2018-09-06 07:29:59.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qt3d/src/3rdparty/assimp/include/assimp/scene.h	2018-12-16 20:48:53.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/*
++/*
+ ---------------------------------------------------------------------------
+ Open Asset Import Library (assimp)
+ ---------------------------------------------------------------------------
+diff -Nur qt-everywhere-src-5.11.2/qtbase/configure.json qt-everywhere-src-e2k-5.11.2/qtbase/configure.json
+--- qt-everywhere-src-5.11.2/qtbase/configure.json	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/configure.json	2018-12-16 16:11:39.201969846 +0300
+@@ -837,7 +837,7 @@
+         },
+         "sse2": {
+             "label": "SSE2",
+-            "condition": "(arch.i386 || arch.x86_64) && tests.sse2",
++            "condition": "(arch.i386 || arch.x86_64 || arch.e2k32 || arch.e2k64) && tests.sse2",
+             "output": [
+                 "privateConfig",
+                 "privateFeature",
+@@ -1283,13 +1283,13 @@
+                             "message": "SSE",
+                             "type": "featureList",
+                             "args": "sse2 sse3 ssse3 sse4_1 sse4_2",
+-                            "condition": "(arch.i386 || arch.x86_64)"
++                            "condition": "(arch.i386 || arch.x86_64 || arch.e2k32 || arch.e2k64)"
+                         },
+                         {
+                             "message": "AVX",
+                             "type": "featureList",
+                             "args": "avx avx2",
+-                            "condition": "(arch.i386 || arch.x86_64)"
++                            "condition": "(arch.i386 || arch.x86_64 || arch.e2k32 || arch.e2k64)"
+                         },
+                         {
+                             "message": "AVX512",
+@@ -1301,7 +1301,7 @@
+                             "message": "Other x86",
+                             "type": "featureList",
+                             "args": "aesni f16c rdrnd shani",
+-                            "condition": "(arch.i386 || arch.x86_64)"
++                            "condition": "(arch.i386 || arch.x86_64 || arch.e2k32 || arch.e2k64)"
+                         },
+                         {
+                             "type": "feature",
+diff -Nur qt-everywhere-src-5.11.2/qtbase/mkspecs/features/toolchain.prf qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/features/toolchain.prf
+--- qt-everywhere-src-5.11.2/qtbase/mkspecs/features/toolchain.prf	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/features/toolchain.prf	2018-12-16 16:21:13.251129198 +0300
+@@ -91,6 +91,12 @@
+                 }
+             }
+         } else {
++            e2k {
++                 QMAKE_DEFAULT_LIBDIRS += $$clean_path($$system("$$QMAKE_CXX -print-internal-dir=lib", lines, ec))
++                 QMAKE_DEFAULT_INCDIRS += $$clean_path($$system("$$QMAKE_CXX -print-internal-dir=include", lines, ec))
++                 QMAKE_DEFAULT_INCDIRS += $$clean_path($$system("$$QMAKE_CXX -print-internal-dir=include-c++", lines, ec))
++                 QMAKE_DEFAULT_INCDIRS += $$clean_path($$system("$$QMAKE_CXX -print-internal-dir=fccn-include", lines, ec))
++            } else {
+             add_includes = false
+             add_libraries = false
+             for (line, output) {
+@@ -118,6 +124,7 @@
+                         QMAKE_DEFAULT_INCDIRS += $$clean_path($$line)
+                 }
+             }
++            }
+         }
+         if(!darwin:clang)|intel_icc {
+             # Clang on a non-Apple system (that is, a system without ld64 -- say, with GNU ld
+diff -Nur qt-everywhere-src-5.11.2/qtbase/mkspecs/linux-e2s-g++/qmake.conf qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/linux-e2s-g++/qmake.conf
+--- qt-everywhere-src-5.11.2/qtbase/mkspecs/linux-e2s-g++/qmake.conf	1970-01-01 03:00:00.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/linux-e2s-g++/qmake.conf	2018-12-16 17:09:12.606960611 +0300
+@@ -0,0 +1,29 @@
++#
++# qmake configuration for linux-g++
++#
++
++MAKEFILE_GENERATOR      = UNIX
++CONFIG                 += incremental
++QMAKE_INCREMENTAL_STYLE = sublib
++QMAKE_PLATFORM          = e2k
++
++QMAKE_CFLAGS            = -w -fno-error-always-inline -ftemplate-depth-128
++include(../common/linux.conf)
++include(../common/gcc-base-unix.conf)
++include(../common/g++-unix.conf)
++#QMAKE_CC		        = /opt/mcst/lcc-1.21.22.e2k-v3.3.14/bin/lcc
++#QMAKE_CXX		        = /opt/mcst/lcc-1.21.22.e2k-v3.3.14/bin/l++
++#QMAKE_LINK              = /opt/mcst/lcc-1.21.22.e2k-v3.3.14/bin/l++
++#QMAKE_LINK_SHLIB        = /opt/mcst/lcc-1.21.22.e2k-v3.3.14/bin/l++ -mptr64 -mcpu=elbrus-4c
++#QMAKE_STRIP             = /opt/mcst/lcc-1.21.22.e2k-v3.3.14/binutils/e2k-linux/bin/strip
++QMAKE_LFLAGS           += -w
++# -Wl,-rpath-link,/fs/root/context/e2s/qt5-5.11.2/crossroot/usr/lib
++QMAKE_INCDIR            = /usr/include /usr/include/freetype2
++QMAKE_LIBDIR            = /usr/lib
++#QMAKE_INCDIR_OPENGL     = /fs/root/context/e2s/qt5-5.11.2/crossroot/usr/include
++#QMAKE_INCDIR_OPENGL_ES2 = /fs/root/context/e2s/qt5-5.11.2/crossroot/usr/include
++#QMAKE_LIBDIR_OPENGL     = /fs/root/context/e2s/qt5-5.11.2/crossroot/usr/lib
++#QMAKE_LIBDIR_OPENGL_ES2 = /fs/root/context/e2s/qt5-5.11.2/crossroot/usr/lib
++QMAKE_LIBS_OPENGL       = -lGLU -lGL
++QMAKE_LIBS_OPENGL_ES2   = -lGLU -lGLESv2
++load(qt_config)
+diff -Nur qt-everywhere-src-5.11.2/qtbase/mkspecs/linux-e2s-g++/qplatformdefs.h qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/linux-e2s-g++/qplatformdefs.h
+--- qt-everywhere-src-5.11.2/qtbase/mkspecs/linux-e2s-g++/qplatformdefs.h	1970-01-01 03:00:00.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/mkspecs/linux-e2s-g++/qplatformdefs.h	2018-12-16 17:09:12.606960611 +0300
+@@ -0,0 +1,95 @@
++/****************************************************************************
++**
++** Copyright (C) 2016 The Qt Company Ltd.
++** Contact: https://www.qt.io/licensing/
++**
++** This file is part of the qmake spec of the Qt Toolkit.
++**
++** $QT_BEGIN_LICENSE:LGPL$
++** Commercial License Usage
++** Licensees holding valid commercial Qt licenses may use this file in
++** accordance with the commercial license agreement provided with the
++** Software or, alternatively, in accordance with the terms contained in
++** a written agreement between you and The Qt Company. For licensing terms
++** and conditions see https://www.qt.io/terms-conditions. For further
++** information use the contact form at https://www.qt.io/contact-us.
++**
++** GNU Lesser General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU Lesser
++** General Public License version 3 as published by the Free Software
++** Foundation and appearing in the file LICENSE.LGPL3 included in the
++** packaging of this file. Please review the following information to
++** ensure the GNU Lesser General Public License version 3 requirements
++** will be met: https://www.gnu.org/licenses/lgpl-3.0.html.
++**
++** GNU General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU
++** General Public License version 2.0 or (at your option) the GNU General
++** Public license version 3 or any later version approved by the KDE Free
++** Qt Foundation. The licenses are as published by the Free Software
++** Foundation and appearing in the file LICENSE.GPL2 and LICENSE.GPL3
++** included in the packaging of this file. Please review the following
++** information to ensure the GNU General Public License requirements will
++** be met: https://www.gnu.org/licenses/gpl-2.0.html and
++** https://www.gnu.org/licenses/gpl-3.0.html.
++**
++** $QT_END_LICENSE$
++**
++****************************************************************************/
++
++#ifndef QPLATFORMDEFS_H
++#define QPLATFORMDEFS_H
++
++// Get Qt defines/settings
++
++#include "qglobal.h"
++
++// Set any POSIX/XOPEN defines at the top of this file to turn on specific APIs
++
++// 1) need to reset default environment if _BSD_SOURCE is defined
++// 2) need to specify POSIX thread interfaces explicitly in glibc 2.0
++// 3) it seems older glibc need this to include the X/Open stuff
++#ifndef _GNU_SOURCE
++#  define _GNU_SOURCE
++#endif
++
++#include <unistd.h>
++
++
++// We are hot - unistd.h should have turned on the specific APIs we requested
++
++#include <features.h>
++#include <pthread.h>
++#include <dirent.h>
++#include <fcntl.h>
++#include <grp.h>
++#include <pwd.h>
++#include <signal.h>
++
++#include <sys/types.h>
++#include <sys/ioctl.h>
++#include <sys/ipc.h>
++#include <sys/time.h>
++#include <sys/shm.h>
++#include <sys/socket.h>
++#include <sys/stat.h>
++#include <sys/wait.h>
++#include <netinet/in.h>
++
++#define QT_USE_XOPEN_LFS_EXTENSIONS
++#include "../common/posix/qplatformdefs.h"
++
++#undef QT_SOCKLEN_T
++
++#if defined(__GLIBC__) && (__GLIBC__ < 2)
++#define QT_SOCKLEN_T            int
++#else
++#define QT_SOCKLEN_T            socklen_t
++#endif
++
++#if defined(_XOPEN_SOURCE) && (_XOPEN_SOURCE >= 500)
++#define QT_SNPRINTF             ::snprintf
++#define QT_VSNPRINTF            ::vsnprintf
++#endif
++
++#endif // QPLATFORMDEFS_H
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/3rdparty/double-conversion/include/double-conversion/utils.h qt-everywhere-src-e2k-5.11.2/qtbase/src/3rdparty/double-conversion/include/double-conversion/utils.h
+--- qt-everywhere-src-5.11.2/qtbase/src/3rdparty/double-conversion/include/double-conversion/utils.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/3rdparty/double-conversion/include/double-conversion/utils.h	2018-12-16 16:23:49.232897313 +0300
+@@ -65,7 +65,7 @@
+     defined(__sparc__) || defined(__sparc) || defined(__s390__) || \
+     defined(__SH4__) || defined(__alpha__) || \
+     defined(_MIPS_ARCH_MIPS32R2) || \
+-    defined(__AARCH64EL__)
++    defined(__AARCH64EL__) || defined(__e2k__)
+ #define DOUBLE_CONVERSION_CORRECT_DOUBLE_OPERATIONS 1
+ #elif defined(_M_IX86) || defined(__i386__) || defined(__i386)
+ #if defined(_WIN32)
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/3rdparty/sqlite/sqlite3.c qt-everywhere-src-e2k-5.11.2/qtbase/src/3rdparty/sqlite/sqlite3.c
+--- qt-everywhere-src-5.11.2/qtbase/src/3rdparty/sqlite/sqlite3.c	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/3rdparty/sqlite/sqlite3.c	2018-12-16 16:27:29.663689554 +0300
+@@ -30699,7 +30699,7 @@
+ ** overflow, leave *pA unchanged and return 1.
+ */
+ SQLITE_PRIVATE int sqlite3AddInt64(i64 *pA, i64 iB){
+-#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER)
++#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER) && !defined(__LCC__)
+   return __builtin_add_overflow(*pA, iB, pA);
+ #else
+   i64 iA = *pA;
+@@ -30719,7 +30719,7 @@
+ #endif
+ }
+ SQLITE_PRIVATE int sqlite3SubInt64(i64 *pA, i64 iB){
+-#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER)
++#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER) && !defined(__LCC__)
+   return __builtin_sub_overflow(*pA, iB, pA);
+ #else
+   testcase( iB==SMALLEST_INT64+1 );
+@@ -30734,7 +30734,7 @@
+ #endif
+ }
+ SQLITE_PRIVATE int sqlite3MulInt64(i64 *pA, i64 iB){
+-#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER)
++#if GCC_VERSION>=5004000 && !defined(__INTEL_COMPILER) && !defined(__LCC__)
+   return __builtin_mul_overflow(*pA, iB, pA);
+ #else
+   i64 iA = *pA;
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/global/archdetect.cpp qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/archdetect.cpp
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/global/archdetect.cpp	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/archdetect.cpp	2018-12-16 16:30:53.113474300 +0300
+@@ -71,6 +71,10 @@
+ #  define ARCH_PROCESSOR "s390"
+ #elif defined(Q_PROCESSOR_SH)
+ #  define ARCH_PROCESSOR "sh"
++#elif defined(Q_PROCESSOR_E2K_32)
++#  define ARCH_PROCESSOR "e2k32"
++#elif defined(Q_PROCESSOR_E2K_64)
++#  define ARCH_PROCESSOR "e2k64"
+ #elif defined(Q_PROCESSORS_SPARC_64)
+ #  define ARCH_PROCESSOR "sparc64"
+ #elif defined(Q_PROCESSOR_SPARC_V9)
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qcompilerdetection.h qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qcompilerdetection.h
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qcompilerdetection.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qcompilerdetection.h	2018-12-16 18:17:03.430394196 +0300
+@@ -149,6 +149,9 @@
+ #  if defined(__MINGW32__)
+ #    define Q_CC_MINGW
+ #  endif
++#  if defined(__LCC__)
++#    define Q_CC_LCC        (__LCC__)
++#  endif
+ #  if defined(__INTEL_COMPILER)
+ /* Intel C++ also masquerades as GCC */
+ #    define Q_CC_INTEL      (__INTEL_COMPILER)
+@@ -898,7 +901,7 @@
+        /* C11 features supported in GCC 4.7: */
+ #      define Q_COMPILER_STATIC_ASSERT
+ #    endif
+-#    if Q_CC_GNU >= 409
++#    if Q_CC_GNU >= 409 && !defined(__LCC__)
+        /* C11 features supported in GCC 4.9: */
+ #      if __has_include(<threads.h>)
+ #        define Q_COMPILER_THREAD_LOCAL
+@@ -1344,7 +1347,7 @@
+ /*
+     Sanitize compiler feature availability
+ */
+-#if !defined(Q_PROCESSOR_X86)
++#if !defined(Q_PROCESSOR_X86) && !defined(Q_PROCESSOR_E2K_32) && !defined(Q_PROCESSOR_E2K_64)
+ #  undef QT_COMPILER_SUPPORTS_SSE2
+ #  undef QT_COMPILER_SUPPORTS_SSE3
+ #  undef QT_COMPILER_SUPPORTS_SSSE3
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qnumeric_p.h qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qnumeric_p.h
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qnumeric_p.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qnumeric_p.h	2018-12-16 16:42:09.306529577 +0300
+@@ -168,7 +168,7 @@
+ // size_t. Implementations for 8- and 16-bit types will work but may not be as
+ // efficient. Implementations for 64-bit may be missing on 32-bit platforms.
+ 
+-#if (defined(Q_CC_GNU) && (Q_CC_GNU >= 500) || (defined(Q_CC_INTEL) && !defined(Q_OS_WIN))) || QT_HAS_BUILTIN(__builtin_add_overflowx)
++#if (defined(Q_CC_GNU) && (Q_CC_GNU >= 500) && !defined(Q_CC_LCC) || (defined(Q_CC_INTEL) && !defined(Q_OS_WIN))) || QT_HAS_BUILTIN(__builtin_add_overflowx)
+ // GCC 5, ICC 18, and Clang 3.8 have builtins to detect overflows
+ 
+ template <typename T> inline
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qprocessordetection.h qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qprocessordetection.h
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/global/qprocessordetection.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/global/qprocessordetection.h	2018-12-16 16:46:06.363577646 +0300
+@@ -156,6 +156,13 @@
+ // Q_BYTE_ORDER not defined, use endianness auto-detection
+ #endif
+ 
++#elif defined(__e2k__)
++#    define Q_BYTE_ORDER Q_LITTLE_ENDIAN
++#if defined(__ptr32__)
++#    define Q_PROCESSOR_E2K_32
++#elif defined(__ptr64__)
++#    define Q_PROCESSOR_E2K_64
++#endif
+ /*
+     AVR32 family, no revisions or variants
+ 
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/tools/qsimd_p.h qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/tools/qsimd_p.h
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/tools/qsimd_p.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/tools/qsimd_p.h	2018-12-16 16:51:37.435489090 +0300
+@@ -177,7 +177,7 @@
+ #  define QT_FUNCTION_TARGET(x)
+ #endif
+ 
+-#ifdef Q_PROCESSOR_X86
++#if defined(Q_PROCESSOR_X86) || defined(Q_PROCESSOR_E2K_32) || defined(Q_PROCESSOR_E2K_64)
+ /* -- x86 intrinsic support -- */
+ 
+ #  if defined(Q_CC_MSVC) && (defined(_M_X64) || _M_IX86_FP >= 2)
+@@ -300,7 +300,7 @@
+ #elif defined(Q_PROCESSOR_MIPS)
+     CpuFeatureDSP           = 0,
+     CpuFeatureDSPR2         = 1,
+-#elif defined(Q_PROCESSOR_X86)
++#elif defined(Q_PROCESSOR_X86) || defined(__e2k__)
+     // The order of the flags is jumbled so it matches most closely the bits in CPUID
+     // Out of order:
+     CpuFeatureSSE2          = 1,                       // uses the bit for PCLMULQDQ
+diff -Nur qt-everywhere-src-5.11.2/qtbase/src/corelib/tools/qstringview.h qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/tools/qstringview.h
+--- qt-everywhere-src-5.11.2/qtbase/src/corelib/tools/qstringview.h	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/src/corelib/tools/qstringview.h	2018-12-16 16:53:38.668865345 +0300
+@@ -147,7 +147,7 @@
+     template <typename Char>
+     static qsizetype lengthHelperPointer(const Char *str) Q_DECL_NOTHROW
+     {
+-#if defined(Q_CC_GNU) && !defined(Q_CC_CLANG) && !defined(Q_CC_INTEL)
++#if defined(Q_CC_GNU) && !defined(Q_CC_CLANG) && !defined(Q_CC_INTEL) && !defined(Q_CC_LCC)
+         if (__builtin_constant_p(*str)) {
+             qsizetype result = 0;
+             while (*str++)
+diff -Nur qt-everywhere-src-5.11.2/qtbase/tests/auto/other/compiler/tst_compiler.cpp qt-everywhere-src-e2k-5.11.2/qtbase/tests/auto/other/compiler/tst_compiler.cpp
+--- qt-everywhere-src-5.11.2/qtbase/tests/auto/other/compiler/tst_compiler.cpp	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/tests/auto/other/compiler/tst_compiler.cpp	2018-12-16 16:56:11.620508618 +0300
+@@ -704,7 +704,7 @@
+ #else
+     // Attributes in function parameters and using clauses cause MSVC 2015 to crash
+     // https://connect.microsoft.com/VisualStudio/feedback/details/2011594
+-#  if (!defined(Q_CC_MSVC) || _MSC_FULL_VER >= 190023811) && !defined(Q_CC_INTEL)
++#  if (!defined(Q_CC_MSVC) || _MSC_FULL_VER >= 190023811) && !defined(Q_CC_INTEL) && !defined(Q_CC_LCC)
+     void f([[ ]] int);
+     [[ ]] using namespace QtPrivate;
+     [[ ]] try {
+diff -Nur qt-everywhere-src-5.11.2/qtbase/tests/auto/tools/moc/tst_moc.cpp qt-everywhere-src-e2k-5.11.2/qtbase/tests/auto/tools/moc/tst_moc.cpp
+--- qt-everywhere-src-5.11.2/qtbase/tests/auto/tools/moc/tst_moc.cpp	2018-09-13 07:25:10.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtbase/tests/auto/tools/moc/tst_moc.cpp	2018-12-16 16:58:18.675159553 +0300
+@@ -43,7 +43,7 @@
+ #include "pure-virtual-signals.h"
+ #include "qinvokable.h"
+ // msvc and friends crap out on it
+-#if !defined(Q_CC_GNU) || defined(Q_OS_WIN)
++#if !defined(Q_CC_GNU) || defined(Q_OS_WIN) || defined(Q_CC_LCC)
+ #define SKIP_NEWLINE_TEST
+ #endif
+ #if !defined(SKIP_NEWLINE_TEST)
+diff -Nur qt-everywhere-src-5.11.2/qtimageformats/src/3rdparty/libwebp.pri qt-everywhere-src-e2k-5.11.2/qtimageformats/src/3rdparty/libwebp.pri
+--- qt-everywhere-src-5.11.2/qtimageformats/src/3rdparty/libwebp.pri	2018-08-31 09:29:04.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtimageformats/src/3rdparty/libwebp.pri	2018-12-16 17:03:16.766385038 +0300
+@@ -119,6 +119,16 @@
+     INCLUDEPATH += $$NDK_ROOT/sources/android/cpufeatures
+ }
+ 
++e2k:release {
++    QMAKE_CFLAGS_RELEASE -= $$QMAKE_CFLAGS_OPTIMIZE
++    QMAKE_CXXFLAGS_RELEASE -= $$QMAKE_CFLAGS_OPTIMIZE
++}
++
++e2k:debug {
++    QMAKE_CFLAGS_DEBUG -= $$QMAKE_CFLAGS_OPTIMIZE_DEBUG
++    QMAKE_CXXFLAGS_DEBUG -= $$QMAKE_CFLAGS_OPTIMIZE_DEBUG
++}
++
+ integrity {
+     QMAKE_CFLAGS += -c99
+ }
+diff -Nur qt-everywhere-src-5.11.2/qtscript/src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h qt-everywhere-src-e2k-5.11.2/qtscript/src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h
+--- qt-everywhere-src-5.11.2/qtscript/src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h	2018-08-29 08:47:17.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtscript/src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h	2018-12-16 17:06:06.847100765 +0300
+@@ -948,7 +948,7 @@
+ #endif
+ 
+ #if !defined(WTF_USE_JSVALUE64) && !defined(WTF_USE_JSVALUE32) && !defined(WTF_USE_JSVALUE32_64)
+-#if (CPU(X86_64) && !CPU(X32) && (OS(UNIX) || OS(WINDOWS) || OS(SOLARIS) || OS(HPUX))) || (CPU(IA64) && !CPU(IA64_32)) || CPU(ALPHA) || CPU(AIX64) || CPU(SPARC64) || CPU(MIPS64) || CPU(AARCH64)
++#if (CPU(X86_64) && !CPU(X32) && (OS(UNIX) || OS(WINDOWS) || OS(SOLARIS) || OS(HPUX))) || (CPU(IA64) && !CPU(IA64_32)) || CPU(ALPHA) || CPU(AIX64) || CPU(SPARC64) || CPU(MIPS64) || CPU(AARCH64) || CPU(E2K64)
+ #define WTF_USE_JSVALUE64 1
+ #elif CPU(ARM) || CPU(PPC64)
+ #define WTF_USE_JSVALUE32 1
+diff -Nur qt-everywhere-src-5.11.2/qtscxml/examples/examples.pro qt-everywhere-src-e2k-5.11.2/qtscxml/examples/examples.pro
+--- qt-everywhere-src-5.11.2/qtscxml/examples/examples.pro	2018-08-31 09:29:22.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtscxml/examples/examples.pro	2018-12-16 17:06:59.064250356 +0300
+@@ -1,4 +1,4 @@
+ TEMPLATE = subdirs
+ 
+-qtHaveModule(scxml): SUBDIRS += scxml
++# qtHaveModule(scxml): SUBDIRS += scxml
+ 
+diff -Nur qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp
+--- qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp	2018-08-29 15:01:31.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp	2018-12-16 17:16:33.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/****************************************************************************
++/****************************************************************************
+ **
+ ** Copyright (C) 2017 Denis Shienkov <denis.shienkov@gmail.com>
+ ** Copyright (C) 2017 The Qt Company Ltd.
+diff -Nur qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/socketcan/socketcanbackend.cpp qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/socketcan/socketcanbackend.cpp
+--- qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/socketcan/socketcanbackend.cpp	2018-08-29 15:01:31.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/socketcan/socketcanbackend.cpp	2018-12-16 17:17:15.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/****************************************************************************
++/****************************************************************************
+ **
+ ** Copyright (C) 2017 The Qt Company Ltd.
+ ** Contact: http://www.qt.io/licensing/
+diff -Nur qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp
+--- qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp	2018-08-29 15:01:31.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp	2018-12-16 17:17:50.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/****************************************************************************
++/****************************************************************************
+ **
+ ** Copyright (C) 2017 Andre Hartmann <aha_1980@gmx.de>
+ ** Contact: http://www.qt.io/licensing/
+diff -Nur qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp
+--- qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp	2018-08-29 15:01:31.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp	2018-12-16 17:18:19.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/****************************************************************************
++/****************************************************************************
+ **
+ ** Copyright (C) 2017 Denis Shienkov <denis.shienkov@gmail.com>
+ ** Copyright (C) 2017 The Qt Company Ltd.
+diff -Nur qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp
+--- qt-everywhere-src-5.11.2/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp	2018-08-29 15:01:31.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp	2018-12-16 17:18:48.000000000 +0300
+@@ -1,4 +1,4 @@
+-﻿/****************************************************************************
++/****************************************************************************
+ **
+ ** Copyright (C) 2017 Denis Shienkov <denis.shienkov@gmail.com>
+ ** Contact: http://www.qt.io/licensing/
+diff -Nur qt-everywhere-src-5.11.2/qtwebview/src/imports/qmldir qt-everywhere-src-e2k-5.11.2/qtwebview/src/imports/qmldir
+--- qt-everywhere-src-5.11.2/qtwebview/src/imports/qmldir	1970-01-01 03:00:00.000000000 +0300
++++ qt-everywhere-src-e2k-5.11.2/qtwebview/src/imports/qmldir	2018-12-16 20:53:48.220314346 +0300
+@@ -0,0 +1,4 @@
++module QtWebView
++plugin declarative_webview
++typeinfo plugins.qmltypes
++classname QWebViewModule
